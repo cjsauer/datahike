@@ -7,9 +7,9 @@
     [me.tonsky.persistent-sorted-set.arrays :as da]
     [datahike.lru]
     [datahike.impl.entity :as de]
-    #?@(:cljs [datalog.parser.type :refer [BindColl BindIgnore BindScalar BindTuple Constant
-                                           FindColl FindRel FindScalar FindTuple PlainSymbol
-                                           RulesVar SrcVar Variable]])
+    #?(:cljs [datalog.parser.type :refer [BindColl BindIgnore BindScalar BindTuple Constant
+                                          FindColl FindRel FindScalar FindTuple PlainSymbol
+                                          RulesVar SrcVar Variable]])
     [datalog.parser.impl :as dpi]
     [datalog.parser.impl.proto :as dpip]
     [datahike.pull-api :as dpa]

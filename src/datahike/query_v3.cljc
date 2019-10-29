@@ -6,15 +6,15 @@
    [datahike.query :as dq]
    [datahike.lru :as lru]
    [me.tonsky.persistent-sorted-set.arrays :as da]
-   #?@(:cljs [datalog.parser.type :refer [BindColl BindIgnore BindScalar BindTuple
-                                          Constant DefaultSrc Pattern RulesVar SrcVar Variable
-                                          Not Or And Predicate PlainSymbol]])
+   #?(:cljs [datalog.parser.type :refer [BindColl BindIgnore BindScalar BindTuple
+                                         Constant DefaultSrc Pattern RulesVar SrcVar Variable
+                                         Not Or And Predicate PlainSymbol]])
    [datalog.parser :refer [parse]]
    [datalog.parser.util :as dpu]
    [datalog.parser.impl.util :as dpiu]
    [datalog.parser.impl :as dpi])
   #?(:clj
-    (:import 
+    (:import
       [datalog.parser.type
         BindColl BindIgnore BindScalar BindTuple
         Constant DefaultSrc Pattern RulesVar SrcVar Variable
