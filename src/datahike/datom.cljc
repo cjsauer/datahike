@@ -2,7 +2,8 @@
   (:require  [clojure.walk]
              [clojure.data]
              [datahike.tools :refer [combine-hashes ]]
-             [datahike.constants :refer [tx0]]))
+             [datahike.constants :refer [tx0]])
+  #?(:cljs (:require-macros [datahike.datom :refer [combine-cmp]])))
 
 (declare hash-datom equiv-datom seq-datom nth-datom assoc-datom val-at-datom)
 
