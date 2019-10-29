@@ -95,8 +95,8 @@
     :dev { :source-paths ["bench/src" "test" "dev"]
            :dependencies [[org.clojure/tools.nrepl     "0.2.13"]
                           [org.clojure/tools.namespace "0.3.1"]
-                          [lambdaisland/kaocha         "0.0-529"]
-                          [lambdaisland/kaocha-cljs    "0.0-40"]] }
+                          [lambdaisland/kaocha         "0.0-554"]
+                          [lambdaisland/kaocha-cljs    "0.0-59"]] }
     :aot { :aot [#"datahike\.(?!query-v3).*"]
            :jvm-opts ["-Dclojure.compiler.direct-linking=true"] }
   }
